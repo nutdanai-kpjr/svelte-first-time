@@ -6,16 +6,8 @@
 	import ContactSection from '$lib/components/ContactSection.svelte';
 	import IntroductionSection  from '$lib/components/IntroductionSection.svelte';
 	import ProjectShowCaseSection from '$lib/components/ProjectShowCaseSection.svelte';
-
-	type Project = {
-		name: string;
-		description: string;
-		image: string;
-		link: string;
-	startDate:Date;
-	endDate:Date;
+   
 	
-	}
 </script>
 
 <svelte:head>

@@ -1,17 +1,13 @@
 <script lang="ts">
-    import PrimarySection from '$lib/components/layout/PrimarySection.svelte';
+	import PrimarySection from '$lib/components/layout/PrimarySection.svelte';
 </script>
 
-<PrimarySection><div>Contact</div>
-<div>
-    <a href="">Github</a>
-    <a href="">LinkedIn</a>
-    <a href="">Email</a>
-</div>
-
-
+<PrimarySection
+	><div>Contact</div>
+	<a href="">Github ↗︎</a>
+	<a href="">LinkedIn ↗︎</a>
+	<a href="">Email ↗︎</a>
 </PrimarySection>
 
 <style>
-
 </style>

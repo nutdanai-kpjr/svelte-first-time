@@ -12,7 +12,7 @@
 		As an undergraduate student studying computer science, I have developed web and mobile
 		applications both for my personal interests and for university projects since 2019.
 	</p>
-	<a>View My CV</a>
+	<a>View My CV ↗︎</a>
 </PrimarySection>
 
 <style>

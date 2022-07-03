@@ -1,5 +1,5 @@
 <script lang="ts">
-    
+ 
 </script>
 <div>
     <h3>This is Card</h3>

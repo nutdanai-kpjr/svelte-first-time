@@ -2,7 +2,15 @@
     import PrimarySection from '$lib/components/layout/PrimarySection.svelte';
 </script>
 
-<PrimarySection>Contact</PrimarySection>
+<PrimarySection><div>Contact</div>
+<div>
+    <a href="">Github</a>
+    <a href="">LinkedIn</a>
+    <a href="">Email</a>
+</div>
+
+
+</PrimarySection>
 
 <style>
 

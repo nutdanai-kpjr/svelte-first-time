@@ -19,7 +19,7 @@
 		<h5>{getProjectTimeline(project)}</h5>
 		<h3>{project.name}</h3>
 		<p>{project.description}</p>
-		<a href={project.link}>Let's see</a>
+		<a href={project.link}>Let's see ↗︎</a>
 	</div>
 	<img class="image" src={project.image} alt={project.name} />
 </PrimaryCard>
@@ -30,14 +30,35 @@
 		height: 145px;
 		border-radius: 15%;
 		border: 1px solid #e6e6e6;
-		flex: 1;
 	}
 	.content {
-		flex: 3;
+		margin-right: 2rem;
 	}
 	.content > * {
 		margin: 0;
-		/* font-weight: bold; */
-		/* margin-bottom: 0.5rem; */
+	}
+	.content h5 {
+		/* top right buttom left */
+		margin: var(--space-sm) 0 var(--space-sm) 0;
+	}
+	.content h3 {
+		font-weight: 200;
+		font-size: var(--font--size-lg);
+		/* top right buttom left */
+		margin: var(--space-md) 0 var(--space-md) 0;
+	}
+	.content p {
+		/* top right buttom left */
+		line-height: var(--line-height-base);
+		margin: var(--space-sm) 0 var(--space-md) 0;
+	}
+	@media (max-width: 480px) {
+		.image {
+			margin: var(--space-md);
+			width: 300px;
+			height: 300px;
+			border-radius: 15%;
+			border: 1px solid #e6e6e6;
+		}
 	}
 </style>

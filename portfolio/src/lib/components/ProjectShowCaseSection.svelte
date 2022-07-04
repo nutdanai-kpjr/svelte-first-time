@@ -5,7 +5,7 @@
 </script>
 
 <PrimarySection
-	>Project Showcase
+	><h3>Project Showcase</h3>
 	{#each projects as project (project.name)}
 		<ProjectCard {project} />
 	{/each}

@@ -12,8 +12,6 @@ declare global {
     }
  
 }
-function getProjectTimeline(project:Project): string{
-    return project.startDate + " - " + project.endDate;
-}
+
 export {}
 

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ContactSection from '$lib/components/ContactSection.svelte';
 	import Header from '$lib/components/header/Header.svelte';
 	import '../app.css';
 </script>
@@ -10,7 +11,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<ContactSection />
 </footer>
 
 <style>

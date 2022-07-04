@@ -1,15 +1,15 @@
 [
 	{
-		"name": "Test1",
-		"description": "Test",
+		"name": "First Project Name",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 		"image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
 		"link": "https://www.google.com",
 		"startDate": "2000",
 		"endDate": "2001"
 	},
 	{
-		"name": "Test1",
-		"description": "Test",
+		"name": "Second Project Name",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		"image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
 		"link": "https://www.google.com",
 		"startDate": "2000",

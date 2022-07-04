@@ -2,14 +2,16 @@
 	import PrimarySection from '$lib/components/layout/PrimarySection.svelte';
 </script>
 
-<PrimarySection>
-	<h4>Contact</h4>
-	<div>
-		<a href="">Github ↗︎</a>
-		<a href="">LinkedIn ↗︎</a>
-		<a href="">Email ↗︎</a>
-	</div>
-</PrimarySection>
+<div>
+	<PrimarySection>
+		<h4>Contact</h4>
+		<div>
+			<a href="">Github ↗︎</a>
+			<a href="">LinkedIn ↗︎</a>
+			<a href="">Email ↗︎</a>
+		</div>
+	</PrimarySection>
+</div>
 
 <style>
 	h4 {

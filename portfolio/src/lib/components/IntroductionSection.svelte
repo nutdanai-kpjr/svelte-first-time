@@ -3,9 +3,9 @@
 </script>
 
 <PrimarySection>
-	<img src="" alt="My Image" />
-	>
-	<h3>I write web</h3>
+	<img src="avartar.png" alt="Avartar" />
+
+	<h3>I craft web.</h3>
 	<p>
 		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptas molestiae perferendis
 		animi in! Numquam dignissimos tempore ipsam, sunt asperiores suscipit esse quidem amet accusamus
@@ -15,6 +15,12 @@
 </PrimarySection>
 
 <style>
-	body {
+	h3 {
+		font-weight: 600;
+		margin: var(--space-sm) 0 var(--space-sm) 0;
+	}
+	img {
+		width: 80px;
+		height: 80px;
 	}
 </style>

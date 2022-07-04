@@ -1,6 +1,6 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
-import AboutSection from '$lib/components/AboutSection.svelte';
+	import AboutSection from '$lib/components/AboutSection.svelte';
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -21,13 +21,18 @@ import AboutSection from '$lib/components/AboutSection.svelte';
 </svelte:head>
 
 <div class="content">
- <AboutSection></AboutSection>
+	<AboutSection />
 </div>
 
 <style>
 	.content {
-		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex: 1;
+		/* width: 100%;
 		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
+		margin: var(--column-margin-top) auto 0 auto; */
 	}
 </style>

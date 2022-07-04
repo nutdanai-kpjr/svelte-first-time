@@ -12,7 +12,7 @@
 		/* text-align: ; */
 
 		padding: 1rem;
-		margin: 3rem 1rem 3rem 1rem;
+		margin: 0 0 3rem 0;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;

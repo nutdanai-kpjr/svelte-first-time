@@ -28,6 +28,7 @@
 	}
 
 	nav {
+		margin-top: 1rem;
 		display: flex;
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
@@ -61,7 +62,7 @@
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
 
-		border-top: var(--size) solid var(--heading-color);
+		/* border-bottom: var(--size) solid var(--heading-color); */
 	}
 	li.active a {
 		--size: 6px;
@@ -73,8 +74,8 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 1em;
-		color: var(--text-color);
-		font-weight: 700;
+		color: var(--sub-text-color);
+		font-weight: 100;
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;

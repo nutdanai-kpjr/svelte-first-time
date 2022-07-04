@@ -8,8 +8,9 @@
 	--secondary-color: #d0dde9;
 	--tertiary-color: #edf0f8;
 	--heading-color:rgba(0, 0, 0, 0.80);
-	--link-color:rgba(0, 0, 0, 0.70);
-	--text-color:#666666 ;
+	--link-color:rgba(0, 0, 0, 0.75);
+	--text-color:rgba(0, 0, 0, 0.60) ;
+	--sub-text-color:rgba(0, 0, 0, 0.30) ;
 	--secondary-text-color: #9e9e9e;
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
@@ -49,7 +50,7 @@ h2,h3,h4
 }
 
 p {
-	/* line-height: 1.5; */
+	line-height: 1.5;
 	font-weight: 100;
 	color: var(--text-color);
 	font-size: var(--font-md);

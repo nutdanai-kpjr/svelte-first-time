@@ -3,7 +3,7 @@
 </script>
 
 <PrimarySection>
-	<h4>Contact</h4>
+	<div><h4>Contact</h4></div>
 	<div>
 		<a href="">Github ↗︎</a>
 		<a href="">LinkedIn ↗︎</a>
@@ -28,14 +28,18 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	@media (max-width: 480px) {
+		a {
+			margin-right: 0;
+			line-height: 1.75rem;
+		}
 		div {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: flex-start;
 			align-items: flex-start;
 			padding: 0px;
 		}

@@ -22,7 +22,7 @@
 
 	@media (max-width: 480px) {
 		div {
-			/* border: 1px solid red; */
+			border: 1px solid red;
 			padding: 1rem;
 			margin: 0 0 3rem 0;
 			display: flex;

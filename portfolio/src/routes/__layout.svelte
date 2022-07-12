@@ -27,12 +27,15 @@
 	}
 
 	footer {
+		flex: 1;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 1;
+		max-width: 1024px;
+		margin: 0 auto;
 		padding: 1rem;
+		box-sizing: border-box;
 	}
 
 	@media (min-width: 480px) {

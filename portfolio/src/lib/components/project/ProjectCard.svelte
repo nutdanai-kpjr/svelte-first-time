@@ -54,7 +54,7 @@
 	}
 	@media (max-width: 480px) {
 		.image {
-			margin: var(--space-md);
+			margin: var(--space-lg) 0 var(--space-md) 0;
 			width: 300px;
 			height: 300px;
 			border-radius: 15%;

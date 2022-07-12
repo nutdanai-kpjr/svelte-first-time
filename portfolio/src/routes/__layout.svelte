@@ -31,12 +31,13 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 40px;
+		flex: 1;
+		padding: 1rem;
 	}
 
 	@media (min-width: 480px) {
 		footer {
-			padding: 40px 0;
+			padding: 1rem;
 		}
 	}
 </style>
